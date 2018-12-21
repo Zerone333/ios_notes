@@ -1,0 +1,24 @@
+From 09aa91b4c82af1fabc52518ec86eb3ef1360e57d Mon Sep 17 00:00:00 2001
+From: liyizhen <liyizhen@xiaoyouzi.com>
+Date: Tue, 11 Dec 2018 10:10:33 +0800
+Subject: [PATCH] 1
+
+---
+ iOS-JavaScriptCore/js/js/AppDelegate.m | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/iOS-JavaScriptCore/js/js/AppDelegate.m b/iOS-JavaScriptCore/js/js/AppDelegate.m
+index 823b4e1..f503ee0 100644
+--- a/iOS-JavaScriptCore/js/js/AppDelegate.m
++++ b/iOS-JavaScriptCore/js/js/AppDelegate.m
+@@ -5,6 +5,7 @@
+ //  Created by Lee on 2018/12/10.
+ //  Copyright © 2018年 Lee. All rights reserved.
+ //
++//add change 1
+ 
+ #import "AppDelegate.h"
+ 
+-- 
+2.18.0
+
