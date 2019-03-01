@@ -36,10 +36,10 @@
     outsideRound.layer.borderColor = [UIColor whiteColor].CGColor;
     outsideRound.frame = frame;
     
-    outsideRound.layer.shadowColor = [UIColor blackColor].CGColor;
-    outsideRound.layer.shadowOffset = CGSizeMake(0,8);
-    outsideRound.layer.shadowOpacity = 0.5;
-    outsideRound.layer.shadowRadius = 8;
+    outsideRound.layer.shadowColor = [[UIColor blackColor] colorWithAlphaComponent:0.2].CGColor;
+    outsideRound.layer.shadowOffset = CGSizeMake(0,4);
+    outsideRound.layer.shadowOpacity = 0.2;
+    outsideRound.layer.shadowRadius = 3;
     [self.view addSubview:outsideRound];
     
     UILabel *label = [[UILabel alloc] init];
